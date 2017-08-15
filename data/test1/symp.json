@@ -1,0 +1,51 @@
+{
+	"value" : "not released",
+	"children" :
+	[
+		{
+			"value" : "physical",
+			"children" : [
+              {
+                "value": "nausea",
+                "children": []
+              },
+              {
+                "value": "fever",
+                "children": []
+              },
+              {
+                "value": "fatigue",
+                "children": []
+              }
+            ]
+        },
+        {
+			"value" : "abdominal",
+			"children" : [
+              {
+                "value": "diarrhea",
+                "children": []
+              },
+              {
+                "value": "stomachache",
+                "children": []
+              }
+            ]
+        },
+        {
+			"value" : "skin",
+			"children" : [
+              {
+                "value": "itchiness",
+                "children": []
+              },
+              {
+                "value": "open sore",
+                "children": []
+              }
+            ]
+        }
+
+
+	]
+}

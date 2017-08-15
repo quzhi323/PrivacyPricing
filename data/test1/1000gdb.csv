@@ -1,0 +1,1001 @@
+PID,GEN,AGE,SYMP,DRUG,ILLNESS
+928,female,44,fatigue,Advil,cold
+789,female,68,fatigue,Clofarabine,leukemia
+739,male,52,fever,Advil,incluenza
+512,male,73,fatigue,Clofarabine,leukemia
+582,female,38,fatigue,Penicillin,scarlatin
+674,male,23,fatigue,Clofarabine,leukemia
+525,female,99,fatigue,Advil,cold
+264,female,75,fatigue,Advil,cold
+715,female,2,fatigue,Clofarabine,leukemia
+293,female,100,fever,Metformin,type 2 diabetes
+267,male,84,fatigue,Clofarabine,leukemia
+507,female,4,itchiness,Aldara,common wart
+85,female,1,fatigue,Clofarabine,leukemia
+965,male,74,itchiness,Aldara,common wart
+739,female,93,fatigue,Advil,cold
+210,female,93,fatigue,Advil,cold
+911,female,21,fatigue,Advil,cold
+707,female,27,itchiness,Clobex,dermatits
+683,female,100,itchiness,Clobex,dermatits
+815,male,4,fatigue,Advil,cold
+395,female,61,fatigue,Clofarabine,leukemia
+145,female,19,fatigue,Penicillin,scarlatin
+930,male,37,fatigue,Penicillin,scarlatin
+955,female,64,fever,Metformin,type 2 diabetes
+604,male,73,fever,Metformin,type 2 diabetes
+522,male,68,itchiness,Aldara,common wart
+649,female,14,fatigue,Advil,cold
+547,female,100,fatigue,Penicillin,scarlatin
+795,male,17,fever,Advil,incluenza
+543,male,63,fever,Advil,incluenza
+371,male,29,fever,Metformin,type 2 diabetes
+216,male,72,fatigue,Advil,cold
+868,male,35,fever,Metformin,type 2 diabetes
+79,male,15,fatigue,Penicillin,scarlatin
+418,female,94,fever,Metformin,type 2 diabetes
+330,female,88,itchiness,Aldara,common wart
+19,female,55,fatigue,Penicillin,scarlatin
+91,male,31,fever,Metformin,type 2 diabetes
+270,male,82,itchiness,Clobex,dermatits
+189,female,82,fatigue,Clofarabine,leukemia
+385,male,43,fatigue,Advil,cold
+95,female,100,fatigue,Advil,cold
+268,male,77,fatigue,Penicillin,scarlatin
+584,female,66,fever,Advil,incluenza
+165,female,52,itchiness,Aldara,common wart
+359,female,88,fatigue,Clofarabine,leukemia
+101,male,73,fatigue,Advil,cold
+869,female,71,fever,Advil,incluenza
+550,male,21,fever,Advil,incluenza
+336,female,42,fatigue,Clofarabine,leukemia
+738,female,41,itchiness,Clobex,dermatits
+589,male,92,fatigue,Penicillin,scarlatin
+789,male,95,fatigue,Advil,cold
+495,female,33,itchiness,Clobex,dermatits
+782,female,96,fatigue,Clofarabine,leukemia
+420,female,50,fever,Metformin,type 2 diabetes
+229,male,51,fever,Advil,incluenza
+284,female,5,fatigue,Clofarabine,leukemia
+988,male,95,fatigue,Clofarabine,leukemia
+899,female,95,itchiness,Aldara,common wart
+544,female,81,fever,Metformin,type 2 diabetes
+466,male,77,itchiness,Aldara,common wart
+547,male,31,itchiness,Clobex,dermatits
+90,male,100,itchiness,Clobex,dermatits
+363,female,59,fatigue,Clofarabine,leukemia
+715,female,26,fever,Advil,incluenza
+347,female,84,fatigue,Advil,cold
+49,female,82,itchiness,Aldara,common wart
+448,female,33,fatigue,Advil,cold
+65,female,1,itchiness,Aldara,common wart
+64,female,72,itchiness,Aldara,common wart
+543,female,1,fever,Advil,incluenza
+962,female,45,fever,Metformin,type 2 diabetes
+572,female,15,itchiness,Clobex,dermatits
+726,female,2,fever,Metformin,type 2 diabetes
+592,female,42,fever,Advil,incluenza
+816,female,25,fatigue,Penicillin,scarlatin
+17,female,97,fatigue,Advil,cold
+515,male,26,itchiness,Clobex,dermatits
+698,male,40,fever,Advil,incluenza
+895,male,28,fever,Advil,incluenza
+604,female,12,fatigue,Clofarabine,leukemia
+261,female,64,fever,Metformin,type 2 diabetes
+363,male,19,fatigue,Advil,cold
+16,male,23,fatigue,Advil,cold
+152,male,84,itchiness,Aldara,common wart
+420,male,16,fever,Metformin,type 2 diabetes
+191,female,25,itchiness,Aldara,common wart
+927,male,60,fever,Advil,incluenza
+472,male,15,fatigue,Penicillin,scarlatin
+40,female,63,fatigue,Advil,cold
+847,male,22,fever,Metformin,type 2 diabetes
+808,female,66,fatigue,Advil,cold
+945,male,50,fever,Advil,incluenza
+267,male,56,fever,Metformin,type 2 diabetes
+500,male,20,fever,Advil,incluenza
+206,male,51,itchiness,Clobex,dermatits
+744,female,53,fever,Advil,incluenza
+179,female,41,fatigue,Advil,cold
+524,male,96,fatigue,Advil,cold
+971,male,28,fatigue,Advil,cold
+282,male,23,fever,Metformin,type 2 diabetes
+222,female,52,itchiness,Clobex,dermatits
+864,male,79,itchiness,Aldara,common wart
+371,female,23,fatigue,Penicillin,scarlatin
+107,female,13,fatigue,Advil,cold
+638,female,43,fatigue,Advil,cold
+91,female,15,fatigue,Advil,cold
+462,female,69,fever,Advil,incluenza
+501,female,92,fatigue,Advil,cold
+382,female,32,fatigue,Penicillin,scarlatin
+173,female,29,fatigue,Penicillin,scarlatin
+607,female,75,fatigue,Penicillin,scarlatin
+442,female,3,fatigue,Penicillin,scarlatin
+956,female,30,itchiness,Aldara,common wart
+980,female,85,fever,Metformin,type 2 diabetes
+735,female,62,fatigue,Penicillin,scarlatin
+983,female,48,fatigue,Clofarabine,leukemia
+942,male,15,fatigue,Clofarabine,leukemia
+938,female,2,fever,Metformin,type 2 diabetes
+687,female,57,fatigue,Clofarabine,leukemia
+853,male,52,fatigue,Advil,cold
+94,male,85,fatigue,Advil,cold
+739,male,55,fatigue,Penicillin,scarlatin
+172,male,83,fatigue,Penicillin,scarlatin
+96,female,34,fatigue,Advil,cold
+529,female,41,itchiness,Clobex,dermatits
+284,female,10,fatigue,Advil,cold
+543,female,28,fatigue,Penicillin,scarlatin
+872,female,71,fatigue,Advil,cold
+775,female,54,itchiness,Aldara,common wart
+760,male,7,fatigue,Advil,cold
+202,male,73,fatigue,Penicillin,scarlatin
+379,male,54,itchiness,Aldara,common wart
+244,male,41,fever,Advil,incluenza
+422,female,35,fatigue,Clofarabine,leukemia
+121,female,58,fatigue,Advil,cold
+520,male,74,fever,Metformin,type 2 diabetes
+494,female,93,fever,Advil,incluenza
+414,male,8,fever,Metformin,type 2 diabetes
+644,female,54,itchiness,Clobex,dermatits
+464,male,7,fatigue,Advil,cold
+392,female,29,fatigue,Penicillin,scarlatin
+969,female,54,fever,Metformin,type 2 diabetes
+822,male,43,itchiness,Aldara,common wart
+213,female,49,fever,Advil,incluenza
+151,male,22,itchiness,Aldara,common wart
+577,male,33,itchiness,Clobex,dermatits
+270,female,44,fatigue,Penicillin,scarlatin
+4,male,44,itchiness,Aldara,common wart
+278,male,18,itchiness,Aldara,common wart
+133,female,53,fatigue,Advil,cold
+684,female,45,fatigue,Advil,cold
+638,male,93,fatigue,Penicillin,scarlatin
+937,male,19,fatigue,Advil,cold
+968,female,36,fever,Metformin,type 2 diabetes
+374,male,33,fatigue,Clofarabine,leukemia
+760,male,35,itchiness,Clobex,dermatits
+763,male,39,fatigue,Penicillin,scarlatin
+724,male,38,itchiness,Clobex,dermatits
+158,female,24,fatigue,Clofarabine,leukemia
+537,male,100,itchiness,Clobex,dermatits
+331,male,52,fever,Advil,incluenza
+216,female,85,itchiness,Clobex,dermatits
+970,male,79,itchiness,Aldara,common wart
+132,female,14,itchiness,Clobex,dermatits
+847,male,88,fatigue,Penicillin,scarlatin
+730,female,48,fatigue,Advil,cold
+756,male,67,itchiness,Clobex,dermatits
+310,female,2,fatigue,Penicillin,scarlatin
+997,male,31,itchiness,Aldara,common wart
+523,male,39,fever,Advil,incluenza
+949,female,64,fever,Advil,incluenza
+946,female,52,fever,Advil,incluenza
+210,female,95,fever,Metformin,type 2 diabetes
+846,female,92,fatigue,Clofarabine,leukemia
+919,male,63,fatigue,Clofarabine,leukemia
+909,female,92,itchiness,Clobex,dermatits
+342,female,11,fatigue,Advil,cold
+304,male,27,fatigue,Advil,cold
+90,male,17,itchiness,Clobex,dermatits
+642,female,60,itchiness,Clobex,dermatits
+940,male,62,fatigue,Clofarabine,leukemia
+730,female,54,itchiness,Clobex,dermatits
+410,male,40,fatigue,Clofarabine,leukemia
+321,female,43,fatigue,Advil,cold
+357,female,84,fever,Metformin,type 2 diabetes
+440,female,4,fatigue,Advil,cold
+536,male,56,fatigue,Advil,cold
+326,female,16,itchiness,Aldara,common wart
+517,female,39,fever,Advil,incluenza
+611,male,18,fever,Advil,incluenza
+997,male,13,fatigue,Clofarabine,leukemia
+272,female,61,fatigue,Clofarabine,leukemia
+233,male,5,fatigue,Clofarabine,leukemia
+247,male,87,fever,Metformin,type 2 diabetes
+728,male,3,fatigue,Advil,cold
+571,female,76,fever,Advil,incluenza
+625,female,80,fever,Metformin,type 2 diabetes
+857,male,2,fever,Advil,incluenza
+112,female,15,itchiness,Aldara,common wart
+989,female,98,itchiness,Clobex,dermatits
+940,female,33,fever,Metformin,type 2 diabetes
+517,male,74,fever,Metformin,type 2 diabetes
+571,male,98,itchiness,Aldara,common wart
+111,female,43,itchiness,Clobex,dermatits
+73,male,34,itchiness,Clobex,dermatits
+494,female,61,fever,Metformin,type 2 diabetes
+418,male,62,fatigue,Advil,cold
+226,female,97,fatigue,Advil,cold
+503,female,58,fever,Metformin,type 2 diabetes
+629,female,84,itchiness,Clobex,dermatits
+842,male,91,fever,Advil,incluenza
+778,male,62,fatigue,Advil,cold
+270,female,36,fatigue,Penicillin,scarlatin
+822,female,56,fever,Advil,incluenza
+205,male,36,fatigue,Advil,cold
+30,female,99,itchiness,Clobex,dermatits
+148,male,89,fever,Metformin,type 2 diabetes
+876,male,62,fever,Metformin,type 2 diabetes
+947,male,54,itchiness,Clobex,dermatits
+270,male,75,itchiness,Aldara,common wart
+58,female,75,fatigue,Advil,cold
+350,female,99,fatigue,Penicillin,scarlatin
+326,male,77,itchiness,Clobex,dermatits
+742,female,32,fatigue,Clofarabine,leukemia
+412,male,57,itchiness,Clobex,dermatits
+52,male,30,itchiness,Aldara,common wart
+167,male,13,fatigue,Advil,cold
+457,female,12,fever,Metformin,type 2 diabetes
+777,female,91,fatigue,Penicillin,scarlatin
+264,male,79,itchiness,Clobex,dermatits
+415,female,51,fever,Metformin,type 2 diabetes
+232,male,4,itchiness,Clobex,dermatits
+564,female,33,fever,Advil,incluenza
+428,female,83,fatigue,Penicillin,scarlatin
+94,male,31,itchiness,Aldara,common wart
+810,female,73,fatigue,Clofarabine,leukemia
+725,female,11,fatigue,Penicillin,scarlatin
+219,male,10,fatigue,Advil,cold
+727,male,63,fatigue,Penicillin,scarlatin
+422,male,2,fatigue,Penicillin,scarlatin
+11,female,80,fatigue,Advil,cold
+473,male,62,fever,Advil,incluenza
+646,male,83,fatigue,Clofarabine,leukemia
+15,male,89,fatigue,Clofarabine,leukemia
+826,female,66,fatigue,Penicillin,scarlatin
+632,male,22,itchiness,Clobex,dermatits
+165,female,52,fatigue,Penicillin,scarlatin
+451,female,93,fever,Metformin,type 2 diabetes
+271,female,45,fatigue,Penicillin,scarlatin
+462,female,48,fever,Metformin,type 2 diabetes
+457,male,86,fever,Metformin,type 2 diabetes
+554,male,36,fatigue,Clofarabine,leukemia
+554,male,100,fatigue,Clofarabine,leukemia
+516,female,86,fatigue,Clofarabine,leukemia
+399,female,69,fatigue,Advil,cold
+392,female,96,fever,Metformin,type 2 diabetes
+656,male,45,fatigue,Penicillin,scarlatin
+415,female,67,fatigue,Clofarabine,leukemia
+760,female,32,itchiness,Aldara,common wart
+679,female,32,fever,Metformin,type 2 diabetes
+96,male,67,fatigue,Clofarabine,leukemia
+969,male,33,itchiness,Aldara,common wart
+945,female,33,fever,Advil,incluenza
+317,male,70,fatigue,Advil,cold
+425,female,84,fatigue,Advil,cold
+42,male,28,fever,Metformin,type 2 diabetes
+797,male,35,fever,Advil,incluenza
+775,male,18,itchiness,Aldara,common wart
+11,male,24,itchiness,Aldara,common wart
+480,female,78,fever,Advil,incluenza
+352,male,64,fatigue,Penicillin,scarlatin
+668,female,97,fever,Advil,incluenza
+294,male,35,fever,Advil,incluenza
+116,male,93,fatigue,Penicillin,scarlatin
+868,male,55,itchiness,Clobex,dermatits
+854,male,44,itchiness,Clobex,dermatits
+21,female,77,fever,Metformin,type 2 diabetes
+987,male,61,fatigue,Penicillin,scarlatin
+422,female,10,itchiness,Aldara,common wart
+838,male,14,fatigue,Penicillin,scarlatin
+790,male,11,itchiness,Aldara,common wart
+699,male,96,fever,Metformin,type 2 diabetes
+793,male,7,fatigue,Clofarabine,leukemia
+846,male,90,fatigue,Advil,cold
+149,female,84,fatigue,Penicillin,scarlatin
+220,male,62,fever,Advil,incluenza
+662,female,74,fatigue,Penicillin,scarlatin
+448,male,80,fatigue,Penicillin,scarlatin
+185,female,42,fever,Advil,incluenza
+974,female,74,fatigue,Penicillin,scarlatin
+593,female,86,fever,Metformin,type 2 diabetes
+36,male,11,fever,Metformin,type 2 diabetes
+628,male,28,fever,Advil,incluenza
+105,female,80,fatigue,Advil,cold
+756,male,22,itchiness,Clobex,dermatits
+751,male,63,fever,Metformin,type 2 diabetes
+303,female,48,itchiness,Clobex,dermatits
+272,male,69,fatigue,Advil,cold
+306,female,35,fever,Advil,incluenza
+665,female,48,fatigue,Advil,cold
+828,male,16,fever,Metformin,type 2 diabetes
+459,female,85,itchiness,Clobex,dermatits
+285,female,76,fatigue,Penicillin,scarlatin
+80,female,30,fever,Advil,incluenza
+26,male,55,fever,Advil,incluenza
+873,female,41,fever,Advil,incluenza
+740,male,65,itchiness,Aldara,common wart
+251,male,30,fatigue,Clofarabine,leukemia
+35,female,70,itchiness,Aldara,common wart
+813,male,92,fever,Advil,incluenza
+198,male,44,fatigue,Advil,cold
+741,male,89,fever,Advil,incluenza
+496,female,21,fatigue,Advil,cold
+203,female,56,fever,Advil,incluenza
+874,male,58,fever,Metformin,type 2 diabetes
+870,male,58,fatigue,Penicillin,scarlatin
+200,female,21,fever,Metformin,type 2 diabetes
+85,female,62,itchiness,Clobex,dermatits
+911,male,22,fatigue,Advil,cold
+688,male,4,fatigue,Clofarabine,leukemia
+358,male,63,itchiness,Clobex,dermatits
+8,female,67,fatigue,Advil,cold
+481,male,49,itchiness,Aldara,common wart
+887,male,66,fatigue,Advil,cold
+303,male,16,fever,Advil,incluenza
+970,female,34,fever,Metformin,type 2 diabetes
+322,male,83,fever,Metformin,type 2 diabetes
+593,female,53,itchiness,Clobex,dermatits
+837,male,26,fever,Metformin,type 2 diabetes
+759,male,80,fever,Metformin,type 2 diabetes
+231,male,99,fever,Metformin,type 2 diabetes
+401,female,81,fever,Metformin,type 2 diabetes
+278,female,18,fatigue,Advil,cold
+428,male,44,fatigue,Advil,cold
+871,female,71,itchiness,Clobex,dermatits
+445,male,83,fatigue,Clofarabine,leukemia
+689,male,75,fatigue,Clofarabine,leukemia
+794,male,54,fever,Metformin,type 2 diabetes
+965,female,23,fever,Metformin,type 2 diabetes
+749,male,34,fever,Metformin,type 2 diabetes
+292,female,20,fever,Advil,incluenza
+251,male,28,fever,Metformin,type 2 diabetes
+244,female,68,itchiness,Aldara,common wart
+981,male,87,fever,Metformin,type 2 diabetes
+603,male,14,itchiness,Aldara,common wart
+224,female,77,itchiness,Clobex,dermatits
+488,female,27,fever,Metformin,type 2 diabetes
+329,male,89,fatigue,Advil,cold
+47,male,80,itchiness,Clobex,dermatits
+747,male,3,fever,Advil,incluenza
+936,female,26,fever,Advil,incluenza
+338,female,74,fever,Metformin,type 2 diabetes
+866,female,19,fever,Advil,incluenza
+539,male,70,fever,Metformin,type 2 diabetes
+774,male,66,itchiness,Clobex,dermatits
+37,female,66,fatigue,Clofarabine,leukemia
+783,male,82,fever,Advil,incluenza
+750,male,95,fatigue,Advil,cold
+32,female,6,fatigue,Clofarabine,leukemia
+726,female,16,fatigue,Penicillin,scarlatin
+571,female,34,fatigue,Clofarabine,leukemia
+687,female,36,fatigue,Advil,cold
+683,male,19,fever,Metformin,type 2 diabetes
+131,female,12,fatigue,Advil,cold
+251,female,14,fever,Advil,incluenza
+701,female,18,itchiness,Clobex,dermatits
+309,female,1,itchiness,Aldara,common wart
+670,male,34,fatigue,Advil,cold
+661,female,9,fatigue,Penicillin,scarlatin
+872,female,57,fatigue,Penicillin,scarlatin
+937,female,56,fatigue,Clofarabine,leukemia
+865,male,24,fatigue,Advil,cold
+878,male,76,itchiness,Aldara,common wart
+912,female,60,fever,Advil,incluenza
+700,female,21,itchiness,Clobex,dermatits
+678,male,21,fever,Advil,incluenza
+131,female,56,fatigue,Clofarabine,leukemia
+222,female,95,fatigue,Advil,cold
+143,female,76,itchiness,Clobex,dermatits
+545,female,13,fever,Advil,incluenza
+236,female,18,itchiness,Clobex,dermatits
+815,male,60,itchiness,Clobex,dermatits
+695,female,12,itchiness,Aldara,common wart
+841,female,21,itchiness,Clobex,dermatits
+391,female,44,fever,Metformin,type 2 diabetes
+717,male,19,fever,Metformin,type 2 diabetes
+863,male,3,fever,Metformin,type 2 diabetes
+58,male,83,itchiness,Clobex,dermatits
+938,female,12,fatigue,Penicillin,scarlatin
+770,female,35,fatigue,Clofarabine,leukemia
+695,male,76,fatigue,Advil,cold
+359,male,82,fatigue,Penicillin,scarlatin
+35,female,68,fever,Metformin,type 2 diabetes
+408,male,81,fever,Advil,incluenza
+669,female,2,itchiness,Aldara,common wart
+284,female,6,itchiness,Aldara,common wart
+162,female,13,fatigue,Advil,cold
+43,male,80,itchiness,Aldara,common wart
+96,female,30,fatigue,Advil,cold
+48,female,42,fever,Advil,incluenza
+944,male,51,fatigue,Clofarabine,leukemia
+798,male,40,fever,Advil,incluenza
+817,female,15,fever,Metformin,type 2 diabetes
+638,male,72,fever,Metformin,type 2 diabetes
+382,female,19,fatigue,Advil,cold
+363,male,71,fatigue,Clofarabine,leukemia
+451,female,78,itchiness,Aldara,common wart
+566,female,24,fatigue,Penicillin,scarlatin
+382,female,33,itchiness,Aldara,common wart
+551,female,30,fatigue,Penicillin,scarlatin
+546,female,57,itchiness,Aldara,common wart
+981,male,99,fatigue,Advil,cold
+544,male,32,fatigue,Penicillin,scarlatin
+354,female,69,fever,Metformin,type 2 diabetes
+896,male,14,fever,Metformin,type 2 diabetes
+676,female,31,fever,Advil,incluenza
+923,female,93,fatigue,Clofarabine,leukemia
+914,female,9,fever,Metformin,type 2 diabetes
+538,female,78,fever,Advil,incluenza
+105,male,41,fatigue,Clofarabine,leukemia
+996,male,44,fatigue,Clofarabine,leukemia
+693,male,8,fever,Metformin,type 2 diabetes
+373,male,8,fever,Metformin,type 2 diabetes
+840,male,23,fatigue,Penicillin,scarlatin
+456,male,40,fatigue,Penicillin,scarlatin
+78,female,96,fatigue,Advil,cold
+483,female,51,fatigue,Advil,cold
+824,female,11,itchiness,Aldara,common wart
+320,male,45,fatigue,Clofarabine,leukemia
+563,male,5,fatigue,Penicillin,scarlatin
+636,male,14,itchiness,Aldara,common wart
+373,male,1,itchiness,Clobex,dermatits
+53,female,53,fatigue,Advil,cold
+471,female,33,fever,Advil,incluenza
+391,female,2,fever,Advil,incluenza
+153,female,56,fatigue,Clofarabine,leukemia
+310,male,21,fever,Advil,incluenza
+273,male,53,itchiness,Aldara,common wart
+175,female,81,fatigue,Clofarabine,leukemia
+935,female,61,fatigue,Advil,cold
+598,female,56,fatigue,Penicillin,scarlatin
+538,male,31,fever,Metformin,type 2 diabetes
+235,female,81,itchiness,Clobex,dermatits
+159,female,44,fatigue,Advil,cold
+106,male,63,itchiness,Aldara,common wart
+808,female,31,fatigue,Clofarabine,leukemia
+965,female,97,itchiness,Clobex,dermatits
+75,male,51,itchiness,Clobex,dermatits
+874,male,34,fever,Advil,incluenza
+986,male,80,fatigue,Advil,cold
+915,female,76,fatigue,Advil,cold
+727,female,47,fatigue,Clofarabine,leukemia
+20,male,55,itchiness,Aldara,common wart
+508,male,94,fever,Advil,incluenza
+299,male,95,fatigue,Advil,cold
+393,female,37,fatigue,Clofarabine,leukemia
+707,male,5,fever,Advil,incluenza
+433,female,31,itchiness,Clobex,dermatits
+158,female,10,fever,Advil,incluenza
+854,male,75,fatigue,Penicillin,scarlatin
+851,female,85,fever,Metformin,type 2 diabetes
+258,female,58,fatigue,Penicillin,scarlatin
+819,male,63,itchiness,Clobex,dermatits
+960,female,75,itchiness,Clobex,dermatits
+175,male,35,fever,Metformin,type 2 diabetes
+642,female,34,itchiness,Clobex,dermatits
+445,male,23,fatigue,Penicillin,scarlatin
+272,male,56,fever,Advil,incluenza
+192,female,96,fatigue,Penicillin,scarlatin
+473,male,49,fatigue,Advil,cold
+623,male,88,fatigue,Advil,cold
+86,male,53,itchiness,Aldara,common wart
+920,male,82,fever,Advil,incluenza
+557,male,5,fatigue,Advil,cold
+476,female,50,fatigue,Clofarabine,leukemia
+93,male,11,fever,Advil,incluenza
+191,female,64,fever,Advil,incluenza
+107,male,55,fever,Advil,incluenza
+605,male,32,fatigue,Penicillin,scarlatin
+735,female,87,fatigue,Penicillin,scarlatin
+463,female,20,fatigue,Penicillin,scarlatin
+180,male,42,fever,Advil,incluenza
+341,male,33,fatigue,Penicillin,scarlatin
+277,female,62,fever,Metformin,type 2 diabetes
+585,female,39,fatigue,Penicillin,scarlatin
+568,female,56,fatigue,Advil,cold
+733,female,78,fatigue,Penicillin,scarlatin
+626,female,54,fatigue,Penicillin,scarlatin
+995,male,33,fever,Metformin,type 2 diabetes
+711,male,29,itchiness,Aldara,common wart
+628,female,39,fever,Metformin,type 2 diabetes
+321,female,81,fatigue,Penicillin,scarlatin
+983,female,7,fatigue,Clofarabine,leukemia
+647,male,11,itchiness,Clobex,dermatits
+803,male,84,itchiness,Clobex,dermatits
+291,male,85,fatigue,Advil,cold
+909,female,78,itchiness,Clobex,dermatits
+557,male,68,fever,Advil,incluenza
+147,female,35,fever,Advil,incluenza
+239,female,81,itchiness,Aldara,common wart
+387,female,6,itchiness,Aldara,common wart
+429,male,6,fever,Metformin,type 2 diabetes
+231,female,5,fatigue,Penicillin,scarlatin
+96,female,43,fatigue,Penicillin,scarlatin
+1000,male,92,fatigue,Clofarabine,leukemia
+703,male,3,fever,Advil,incluenza
+876,female,9,fatigue,Advil,cold
+955,male,35,fever,Advil,incluenza
+163,female,5,itchiness,Aldara,common wart
+634,male,14,fatigue,Advil,cold
+341,female,80,fever,Advil,incluenza
+379,female,100,fatigue,Advil,cold
+371,male,85,fatigue,Advil,cold
+327,female,11,fatigue,Penicillin,scarlatin
+266,male,90,fever,Advil,incluenza
+383,female,96,fatigue,Penicillin,scarlatin
+384,male,41,itchiness,Aldara,common wart
+56,female,12,fever,Metformin,type 2 diabetes
+105,male,66,fatigue,Advil,cold
+683,male,88,fatigue,Penicillin,scarlatin
+825,female,67,itchiness,Clobex,dermatits
+901,male,83,fever,Metformin,type 2 diabetes
+614,female,81,fever,Metformin,type 2 diabetes
+889,male,4,itchiness,Aldara,common wart
+152,female,88,itchiness,Clobex,dermatits
+921,male,1,fatigue,Advil,cold
+883,female,23,itchiness,Clobex,dermatits
+634,male,80,itchiness,Aldara,common wart
+845,male,12,fever,Advil,incluenza
+210,male,96,fatigue,Penicillin,scarlatin
+846,male,3,fatigue,Penicillin,scarlatin
+500,male,97,fatigue,Penicillin,scarlatin
+443,female,96,itchiness,Clobex,dermatits
+676,female,47,fever,Metformin,type 2 diabetes
+838,female,66,fatigue,Advil,cold
+253,male,58,fever,Advil,incluenza
+874,male,50,fatigue,Penicillin,scarlatin
+292,male,77,fatigue,Advil,cold
+327,female,71,fever,Metformin,type 2 diabetes
+583,female,52,fever,Metformin,type 2 diabetes
+87,female,99,fever,Advil,incluenza
+919,female,1,fever,Advil,incluenza
+992,female,9,fever,Metformin,type 2 diabetes
+75,female,54,fatigue,Clofarabine,leukemia
+855,male,13,fatigue,Penicillin,scarlatin
+86,male,13,fever,Advil,incluenza
+238,female,91,fever,Advil,incluenza
+82,female,68,fatigue,Penicillin,scarlatin
+450,female,45,itchiness,Aldara,common wart
+615,male,13,fatigue,Penicillin,scarlatin
+206,male,40,itchiness,Aldara,common wart
+248,male,17,fatigue,Clofarabine,leukemia
+785,male,72,fever,Metformin,type 2 diabetes
+108,male,37,fatigue,Advil,cold
+65,female,75,fever,Metformin,type 2 diabetes
+699,female,21,fatigue,Advil,cold
+654,male,28,fatigue,Clofarabine,leukemia
+766,female,17,fatigue,Clofarabine,leukemia
+948,female,39,fever,Metformin,type 2 diabetes
+873,female,24,itchiness,Aldara,common wart
+977,female,89,fever,Metformin,type 2 diabetes
+611,female,33,fever,Metformin,type 2 diabetes
+714,female,36,fatigue,Advil,cold
+164,male,34,fever,Advil,incluenza
+393,male,87,fever,Metformin,type 2 diabetes
+66,male,46,fever,Advil,incluenza
+744,male,24,fatigue,Penicillin,scarlatin
+83,male,51,itchiness,Aldara,common wart
+458,male,60,fatigue,Clofarabine,leukemia
+172,male,31,fever,Advil,incluenza
+542,male,89,fever,Advil,incluenza
+60,male,7,fever,Metformin,type 2 diabetes
+563,female,52,itchiness,Aldara,common wart
+669,female,14,itchiness,Clobex,dermatits
+859,female,11,itchiness,Clobex,dermatits
+70,female,56,itchiness,Aldara,common wart
+155,male,34,itchiness,Aldara,common wart
+907,female,76,itchiness,Aldara,common wart
+668,female,94,itchiness,Clobex,dermatits
+18,male,92,fever,Metformin,type 2 diabetes
+996,female,73,itchiness,Aldara,common wart
+188,female,99,fever,Advil,incluenza
+3,male,13,fatigue,Advil,cold
+739,female,62,fatigue,Penicillin,scarlatin
+7,female,24,fatigue,Penicillin,scarlatin
+605,female,45,fever,Metformin,type 2 diabetes
+163,female,10,fever,Metformin,type 2 diabetes
+8,male,39,fever,Metformin,type 2 diabetes
+975,male,31,fever,Metformin,type 2 diabetes
+374,female,85,itchiness,Clobex,dermatits
+83,female,90,itchiness,Aldara,common wart
+743,female,81,fatigue,Penicillin,scarlatin
+147,male,64,itchiness,Clobex,dermatits
+178,male,8,fever,Advil,incluenza
+312,male,53,fever,Advil,incluenza
+64,male,50,fatigue,Clofarabine,leukemia
+624,male,68,fatigue,Clofarabine,leukemia
+251,male,80,fatigue,Penicillin,scarlatin
+904,female,15,fatigue,Penicillin,scarlatin
+245,female,6,fever,Advil,incluenza
+699,male,35,fever,Metformin,type 2 diabetes
+853,female,56,itchiness,Clobex,dermatits
+391,female,97,fatigue,Advil,cold
+631,male,54,fatigue,Advil,cold
+177,male,11,itchiness,Aldara,common wart
+781,male,17,fever,Advil,incluenza
+338,male,65,fatigue,Advil,cold
+415,female,43,fever,Metformin,type 2 diabetes
+511,male,30,itchiness,Aldara,common wart
+774,female,26,fever,Advil,incluenza
+124,male,25,fatigue,Penicillin,scarlatin
+310,male,83,fever,Advil,incluenza
+887,male,38,itchiness,Clobex,dermatits
+826,female,93,fatigue,Clofarabine,leukemia
+428,male,42,itchiness,Clobex,dermatits
+980,male,41,fever,Metformin,type 2 diabetes
+597,male,70,itchiness,Aldara,common wart
+337,female,39,fatigue,Clofarabine,leukemia
+883,female,72,fatigue,Advil,cold
+189,female,21,itchiness,Clobex,dermatits
+929,female,94,fatigue,Advil,cold
+394,male,39,fever,Metformin,type 2 diabetes
+433,male,73,fever,Metformin,type 2 diabetes
+576,male,94,itchiness,Aldara,common wart
+24,male,57,fever,Advil,incluenza
+987,male,43,fatigue,Clofarabine,leukemia
+917,male,28,fatigue,Clofarabine,leukemia
+867,male,31,itchiness,Clobex,dermatits
+548,female,89,fever,Metformin,type 2 diabetes
+117,female,62,fatigue,Advil,cold
+974,female,17,fatigue,Penicillin,scarlatin
+862,male,34,fever,Advil,incluenza
+864,male,56,fatigue,Penicillin,scarlatin
+382,female,61,fatigue,Penicillin,scarlatin
+950,female,75,fatigue,Penicillin,scarlatin
+965,male,62,fatigue,Penicillin,scarlatin
+286,male,44,fatigue,Advil,cold
+865,male,9,fever,Metformin,type 2 diabetes
+687,female,87,itchiness,Clobex,dermatits
+388,male,77,fatigue,Advil,cold
+368,male,17,fever,Advil,incluenza
+236,female,29,fever,Advil,incluenza
+464,male,4,fever,Advil,incluenza
+707,female,98,fever,Advil,incluenza
+271,female,95,fever,Metformin,type 2 diabetes
+174,female,74,fever,Metformin,type 2 diabetes
+206,female,72,fatigue,Clofarabine,leukemia
+209,female,33,fever,Advil,incluenza
+321,male,46,fatigue,Penicillin,scarlatin
+534,male,66,itchiness,Aldara,common wart
+79,female,90,fatigue,Clofarabine,leukemia
+466,male,31,itchiness,Aldara,common wart
+575,male,64,itchiness,Aldara,common wart
+229,female,44,fever,Advil,incluenza
+539,female,89,fatigue,Clofarabine,leukemia
+144,female,21,fatigue,Clofarabine,leukemia
+394,female,52,itchiness,Aldara,common wart
+5,female,64,fatigue,Penicillin,scarlatin
+167,male,79,fever,Advil,incluenza
+511,male,95,fatigue,Advil,cold
+627,male,87,fever,Metformin,type 2 diabetes
+858,female,64,fever,Metformin,type 2 diabetes
+266,male,24,itchiness,Aldara,common wart
+682,female,76,fatigue,Penicillin,scarlatin
+842,female,35,fatigue,Penicillin,scarlatin
+130,female,68,fatigue,Advil,cold
+197,female,14,itchiness,Aldara,common wart
+724,female,47,fatigue,Penicillin,scarlatin
+318,female,99,fatigue,Penicillin,scarlatin
+870,female,14,fever,Metformin,type 2 diabetes
+914,female,9,fever,Metformin,type 2 diabetes
+633,female,91,fatigue,Advil,cold
+709,male,23,itchiness,Clobex,dermatits
+809,male,34,itchiness,Clobex,dermatits
+352,male,29,fever,Advil,incluenza
+121,male,18,itchiness,Clobex,dermatits
+85,female,95,fatigue,Clofarabine,leukemia
+795,male,41,fever,Metformin,type 2 diabetes
+586,male,52,fever,Advil,incluenza
+71,male,49,fatigue,Penicillin,scarlatin
+957,male,28,fatigue,Advil,cold
+364,male,3,fatigue,Advil,cold
+475,male,10,fatigue,Clofarabine,leukemia
+483,female,1,fatigue,Clofarabine,leukemia
+603,female,18,fatigue,Clofarabine,leukemia
+694,female,52,fatigue,Advil,cold
+816,male,39,itchiness,Clobex,dermatits
+72,female,21,fatigue,Penicillin,scarlatin
+341,female,17,fever,Metformin,type 2 diabetes
+664,male,43,itchiness,Clobex,dermatits
+211,female,90,itchiness,Aldara,common wart
+921,female,52,fatigue,Penicillin,scarlatin
+896,female,13,itchiness,Clobex,dermatits
+401,female,9,fever,Advil,incluenza
+783,female,48,itchiness,Clobex,dermatits
+759,female,76,fatigue,Clofarabine,leukemia
+954,female,23,itchiness,Aldara,common wart
+495,male,55,fatigue,Advil,cold
+824,female,80,fever,Advil,incluenza
+63,male,13,fever,Advil,incluenza
+590,female,75,fatigue,Penicillin,scarlatin
+847,female,28,fatigue,Advil,cold
+908,male,40,fatigue,Advil,cold
+164,male,7,fever,Metformin,type 2 diabetes
+740,male,37,fever,Metformin,type 2 diabetes
+689,male,12,fatigue,Penicillin,scarlatin
+361,female,8,fatigue,Clofarabine,leukemia
+129,female,27,fatigue,Advil,cold
+601,female,95,fatigue,Penicillin,scarlatin
+468,male,40,fatigue,Penicillin,scarlatin
+629,female,61,fatigue,Penicillin,scarlatin
+323,female,10,fatigue,Penicillin,scarlatin
+305,female,88,fever,Metformin,type 2 diabetes
+567,female,87,itchiness,Aldara,common wart
+435,female,70,fever,Metformin,type 2 diabetes
+916,male,100,itchiness,Aldara,common wart
+908,male,24,fever,Metformin,type 2 diabetes
+551,male,87,fatigue,Clofarabine,leukemia
+550,male,12,itchiness,Clobex,dermatits
+324,male,67,fatigue,Advil,cold
+692,female,9,fatigue,Advil,cold
+680,female,99,fatigue,Clofarabine,leukemia
+30,female,16,fatigue,Clofarabine,leukemia
+799,male,16,fever,Advil,incluenza
+472,male,45,itchiness,Clobex,dermatits
+110,female,84,fever,Advil,incluenza
+286,female,52,itchiness,Clobex,dermatits
+920,female,49,fatigue,Advil,cold
+937,female,83,fever,Metformin,type 2 diabetes
+105,female,6,fever,Metformin,type 2 diabetes
+792,male,71,fatigue,Penicillin,scarlatin
+808,male,3,fatigue,Clofarabine,leukemia
+774,female,98,fatigue,Penicillin,scarlatin
+608,male,41,fever,Metformin,type 2 diabetes
+710,female,89,fatigue,Clofarabine,leukemia
+491,female,37,fever,Metformin,type 2 diabetes
+104,female,76,fever,Advil,incluenza
+295,female,51,itchiness,Aldara,common wart
+528,female,48,itchiness,Aldara,common wart
+980,female,18,itchiness,Aldara,common wart
+398,male,16,fever,Advil,incluenza
+674,male,21,fatigue,Clofarabine,leukemia
+644,male,89,fatigue,Clofarabine,leukemia
+770,female,50,itchiness,Aldara,common wart
+338,female,89,itchiness,Clobex,dermatits
+29,female,34,fatigue,Clofarabine,leukemia
+922,female,68,fatigue,Penicillin,scarlatin
+811,male,36,fever,Metformin,type 2 diabetes
+237,female,77,fever,Advil,incluenza
+788,female,80,itchiness,Aldara,common wart
+199,male,93,fever,Metformin,type 2 diabetes
+947,female,13,fever,Advil,incluenza
+768,male,3,fatigue,Advil,cold
+4,female,28,itchiness,Aldara,common wart
+856,male,3,fatigue,Clofarabine,leukemia
+152,female,83,fatigue,Penicillin,scarlatin
+675,female,90,fever,Metformin,type 2 diabetes
+591,female,8,itchiness,Aldara,common wart
+293,female,55,fatigue,Penicillin,scarlatin
+258,female,45,fatigue,Penicillin,scarlatin
+411,male,78,fatigue,Advil,cold
+474,male,100,itchiness,Clobex,dermatits
+886,female,57,fever,Advil,incluenza
+883,female,7,fatigue,Advil,cold
+993,male,73,fatigue,Clofarabine,leukemia
+72,female,33,fatigue,Advil,cold
+623,female,20,fatigue,Advil,cold
+735,female,13,itchiness,Clobex,dermatits
+67,male,99,fever,Metformin,type 2 diabetes
+239,female,89,fatigue,Penicillin,scarlatin
+1000,male,95,itchiness,Clobex,dermatits
+520,female,43,itchiness,Clobex,dermatits
+513,male,96,fatigue,Penicillin,scarlatin
+647,female,1,itchiness,Aldara,common wart
+214,male,30,itchiness,Clobex,dermatits
+877,female,83,fatigue,Clofarabine,leukemia
+194,male,61,fatigue,Advil,cold
+93,female,27,fever,Metformin,type 2 diabetes
+924,male,3,fatigue,Advil,cold
+541,male,63,fatigue,Advil,cold
+685,female,31,fever,Metformin,type 2 diabetes
+851,male,49,fever,Metformin,type 2 diabetes
+157,male,33,fatigue,Clofarabine,leukemia
+964,female,100,fatigue,Clofarabine,leukemia
+478,female,1,fatigue,Advil,cold
+487,male,24,fever,Metformin,type 2 diabetes
+280,male,14,fever,Metformin,type 2 diabetes
+304,female,39,fatigue,Clofarabine,leukemia
+730,female,69,fever,Metformin,type 2 diabetes
+461,female,41,itchiness,Clobex,dermatits
+672,female,69,fatigue,Penicillin,scarlatin
+117,male,56,fatigue,Penicillin,scarlatin
+99,male,76,fever,Advil,incluenza
+338,female,3,fatigue,Penicillin,scarlatin
+460,female,57,fever,Advil,incluenza
+993,female,99,itchiness,Aldara,common wart
+69,male,83,fever,Advil,incluenza
+999,female,82,itchiness,Clobex,dermatits
+574,female,6,itchiness,Aldara,common wart
+458,female,99,fever,Metformin,type 2 diabetes
+911,female,36,fatigue,Clofarabine,leukemia
+279,male,47,fatigue,Penicillin,scarlatin
+562,female,65,itchiness,Clobex,dermatits
+335,female,6,itchiness,Aldara,common wart
+980,female,33,fatigue,Clofarabine,leukemia
+47,male,21,itchiness,Aldara,common wart
+423,female,26,fever,Metformin,type 2 diabetes
+734,male,20,fatigue,Penicillin,scarlatin
+257,female,3,fatigue,Advil,cold
+160,male,51,itchiness,Aldara,common wart
+450,male,43,fatigue,Clofarabine,leukemia
+799,male,82,itchiness,Aldara,common wart
+115,female,96,itchiness,Clobex,dermatits
+996,female,96,fatigue,Clofarabine,leukemia
+654,female,44,fatigue,Penicillin,scarlatin
+351,female,72,fever,Metformin,type 2 diabetes
+809,male,46,fatigue,Clofarabine,leukemia
+536,female,100,fever,Metformin,type 2 diabetes
+18,male,28,fatigue,Advil,cold
+677,male,10,fatigue,Penicillin,scarlatin
+993,male,48,itchiness,Aldara,common wart
+870,male,95,itchiness,Aldara,common wart
+155,male,29,fever,Advil,incluenza
+878,male,74,itchiness,Aldara,common wart
+257,female,90,itchiness,Clobex,dermatits
+217,male,60,fever,Advil,incluenza
+561,female,57,fatigue,Clofarabine,leukemia
+385,female,63,itchiness,Aldara,common wart
+587,female,45,itchiness,Aldara,common wart
+107,male,95,fatigue,Advil,cold
+660,female,4,fever,Metformin,type 2 diabetes
+210,male,90,fever,Advil,incluenza
+944,female,96,fatigue,Advil,cold
+852,female,67,fever,Advil,incluenza
+446,male,22,fever,Advil,incluenza
+686,female,83,fatigue,Clofarabine,leukemia
+261,male,20,fatigue,Clofarabine,leukemia
+302,female,49,itchiness,Clobex,dermatits
+641,female,47,fatigue,Advil,cold
+397,male,64,fatigue,Penicillin,scarlatin
+279,female,87,fatigue,Advil,cold
+504,male,36,fatigue,Clofarabine,leukemia
+385,female,65,fatigue,Clofarabine,leukemia
+688,female,53,fever,Advil,incluenza
+441,male,24,fatigue,Penicillin,scarlatin
+195,female,78,fatigue,Clofarabine,leukemia
+821,female,56,fatigue,Penicillin,scarlatin
+904,male,42,fever,Metformin,type 2 diabetes
+568,female,20,itchiness,Clobex,dermatits
+418,female,29,fatigue,Clofarabine,leukemia
+829,male,53,fatigue,Penicillin,scarlatin
+804,female,62,fever,Metformin,type 2 diabetes
+508,female,19,fever,Advil,incluenza
+115,male,25,itchiness,Clobex,dermatits
+236,male,72,itchiness,Aldara,common wart
+88,female,19,fatigue,Penicillin,scarlatin
+679,female,27,itchiness,Clobex,dermatits
+469,female,8,fever,Advil,incluenza
+888,male,67,fatigue,Clofarabine,leukemia
+927,male,24,fatigue,Penicillin,scarlatin
+809,female,94,fatigue,Clofarabine,leukemia
+836,male,1,itchiness,Clobex,dermatits
+704,female,59,fatigue,Penicillin,scarlatin
+595,male,25,fever,Advil,incluenza
+417,male,79,fatigue,Advil,cold
+199,female,29,fever,Advil,incluenza
+477,male,26,fatigue,Clofarabine,leukemia
+358,female,79,fatigue,Advil,cold
+196,male,11,itchiness,Clobex,dermatits
+529,male,70,fever,Advil,incluenza
+425,male,11,fatigue,Penicillin,scarlatin
+303,female,26,fever,Metformin,type 2 diabetes
+192,female,95,fatigue,Advil,cold
+263,male,75,fatigue,Clofarabine,leukemia
+253,female,57,fever,Metformin,type 2 diabetes
+220,male,7,fatigue,Clofarabine,leukemia
+698,male,74,fever,Metformin,type 2 diabetes
+402,female,43,fatigue,Penicillin,scarlatin
+28,female,71,fatigue,Advil,cold
+194,male,84,fever,Advil,incluenza
+850,male,80,fever,Metformin,type 2 diabetes
+300,male,40,fatigue,Penicillin,scarlatin
+51,male,47,fatigue,Clofarabine,leukemia
+942,female,29,fever,Advil,incluenza
+311,female,44,fatigue,Penicillin,scarlatin
+494,female,84,fatigue,Advil,cold
+359,male,97,fatigue,Penicillin,scarlatin
+801,female,72,itchiness,Aldara,common wart
+326,male,20,itchiness,Aldara,common wart
+637,female,70,fatigue,Advil,cold
+319,male,2,itchiness,Clobex,dermatits
+405,female,55,fatigue,Clofarabine,leukemia
+450,female,5,fever,Advil,incluenza
+177,male,19,itchiness,Aldara,common wart
+908,female,13,fever,Advil,incluenza
+428,male,53,fatigue,Penicillin,scarlatin
+203,male,12,fatigue,Advil,cold
+79,male,91,fatigue,Penicillin,scarlatin
+745,male,29,fever,Advil,incluenza
+692,male,37,fatigue,Advil,cold
+681,male,74,fever,Metformin,type 2 diabetes
+545,female,70,fever,Advil,incluenza
+93,female,31,fever,Advil,incluenza
+723,male,56,fever,Advil,incluenza
+611,male,80,fatigue,Penicillin,scarlatin
+630,male,44,fever,Metformin,type 2 diabetes
+520,male,9,itchiness,Aldara,common wart
+424,female,20,fatigue,Penicillin,scarlatin
+836,female,86,fatigue,Penicillin,scarlatin
+974,male,31,fatigue,Clofarabine,leukemia
+21,male,40,fatigue,Clofarabine,leukemia
+37,female,15,itchiness,Clobex,dermatits
+746,female,85,itchiness,Aldara,common wart
+664,female,17,itchiness,Clobex,dermatits
+267,male,46,itchiness,Clobex,dermatits
+185,male,6,fatigue,Clofarabine,leukemia
+302,male,68,fatigue,Penicillin,scarlatin
+771,male,89,itchiness,Clobex,dermatits
+107,male,91,fatigue,Advil,cold
+957,male,18,fatigue,Advil,cold
+66,male,100,itchiness,Aldara,common wart
+687,female,13,fatigue,Advil,cold
+346,male,19,itchiness,Aldara,common wart
+826,male,21,fever,Advil,incluenza
+279,female,100,fatigue,Penicillin,scarlatin
+922,male,92,fever,Advil,incluenza
+159,male,41,fever,Advil,incluenza
+908,male,5,fatigue,Penicillin,scarlatin
+811,female,89,fatigue,Clofarabine,leukemia
+366,female,41,fatigue,Penicillin,scarlatin
+996,male,5,itchiness,Clobex,dermatits
+950,female,11,fever,Metformin,type 2 diabetes
+645,male,97,itchiness,Clobex,dermatits
+200,male,85,fatigue,Advil,cold
+212,female,10,fever,Metformin,type 2 diabetes
+840,female,3,fatigue,Penicillin,scarlatin
+597,male,53,itchiness,Clobex,dermatits
+83,male,66,fatigue,Penicillin,scarlatin
+341,female,80,itchiness,Clobex,dermatits
+888,female,36,fatigue,Clofarabine,leukemia
+467,female,73,fever,Metformin,type 2 diabetes
+31,female,52,fatigue,Clofarabine,leukemia
+908,female,18,fever,Metformin,type 2 diabetes
+86,female,13,fatigue,Clofarabine,leukemia
+245,female,8,fever,Advil,incluenza
+244,male,99,itchiness,Aldara,common wart
+708,female,79,fatigue,Advil,cold
+123,female,100,fatigue,Clofarabine,leukemia
+768,male,58,fatigue,Penicillin,scarlatin
+497,female,84,fatigue,Clofarabine,leukemia
+692,female,7,fever,Advil,incluenza
+445,male,3,fever,Advil,incluenza
+457,male,20,fatigue,Advil,cold
+609,male,50,fatigue,Penicillin,scarlatin
+595,male,88,fatigue,Clofarabine,leukemia
+378,female,48,fatigue,Penicillin,scarlatin
+701,male,55,fever,Metformin,type 2 diabetes
+91,male,83,fever,Metformin,type 2 diabetes
+182,female,19,itchiness,Clobex,dermatits
+691,male,79,itchiness,Aldara,common wart
+130,male,48,itchiness,Aldara,common wart
+827,female,14,fever,Advil,incluenza
+975,female,44,fatigue,Advil,cold
+404,female,73,fever,Metformin,type 2 diabetes
+854,male,79,fever,Advil,incluenza
+237,male,89,fever,Advil,incluenza
+500,male,60,itchiness,Clobex,dermatits
+694,female,66,itchiness,Aldara,common wart
+761,female,58,itchiness,Clobex,dermatits
+966,male,45,itchiness,Aldara,common wart
+599,female,91,fatigue,Advil,cold
+46,female,84,fatigue,Clofarabine,leukemia
+83,male,27,fatigue,Advil,cold
+442,male,70,fever,Advil,incluenza
+894,male,82,itchiness,Aldara,common wart
+347,male,33,itchiness,Clobex,dermatits
+997,male,14,fever,Metformin,type 2 diabetes
+935,male,97,fever,Metformin,type 2 diabetes
+135,male,63,itchiness,Clobex,dermatits
+882,male,4,fatigue,Penicillin,scarlatin
+593,female,59,fatigue,Penicillin,scarlatin
+688,female,64,fever,Metformin,type 2 diabetes
+988,female,78,fever,Metformin,type 2 diabetes
+108,male,88,fatigue,Clofarabine,leukemia
+830,female,18,itchiness,Aldara,common wart
+881,male,12,fatigue,Penicillin,scarlatin
+14,female,88,fever,Advil,incluenza
+630,female,18,fever,Advil,incluenza
+572,male,87,fatigue,Penicillin,scarlatin
+191,male,90,fatigue,Advil,cold
+269,female,95,fatigue,Advil,cold
+341,female,26,fatigue,Clofarabine,leukemia
+652,female,81,fatigue,Advil,cold
+899,male,29,itchiness,Clobex,dermatits
+941,female,30,fatigue,Clofarabine,leukemia
+287,female,7,fever,Advil,incluenza
+385,male,25,itchiness,Clobex,dermatits
+271,female,26,itchiness,Clobex,dermatits

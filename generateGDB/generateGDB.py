@@ -13,8 +13,6 @@ fd={1:['fever','Advil','incluenza'],
 
 gen={1:'male',2:'female'}
 
-
-
 for i in range (0,1000):
 
     tupple=[]
@@ -41,7 +39,7 @@ for i in range (0,1000):
     print(tupple)
     list.append(tupple)
 
-with open("1000gdb.csv","w") as csvfile:
+with open("../data/test1/1000gdb.csv","w") as csvfile:
     writer = csv.writer(csvfile)
     #先写入columns_name
     writer.writerow(["PID","GEN","AGE","SYMP","DRUG","ILLNESS"])
