@@ -1,5 +1,8 @@
-from random import choice
+import random
 
 
-d = {'a':3, 'b':4, 'c':5}
-print(d[choice(d.keys)])
+a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+b = random.sample(a, 1)
+
+print(b)
+

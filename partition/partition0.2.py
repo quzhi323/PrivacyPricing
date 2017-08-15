@@ -113,7 +113,6 @@ def compare(gdb,columnX,columnY,GeValueX,Vlist,Plist,VPmaplist):
                     # print(VPmap[GeValueX], VPmap[GeValueY])
                     P.append(p)
 P=[]      # list of partitions
-
 VPmap={}   # GeValue -----> Partition
 
 columns=5

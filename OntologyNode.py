@@ -1,3 +1,6 @@
+import random
+
+
 class OntologyNode():
     def __init__(self, value):
         self.value = value
@@ -157,6 +160,17 @@ def getUpper(root,k,li):   #with itself
 
     return list
 
+
+def getRandom(root,value):
+    rsl=''
+    node=findNodes(root,value)
+    set=getFamily(root,node)
+    size=len(set)
+    randomnum=random.randint(0,size-1)
+    rsl=set[randomnum]
+    return rsl
+
+
 a = OntologyNode('North America')
 b = OntologyNode('Canada')
 c = OntologyNode('America')
@@ -190,7 +204,7 @@ n.setParent(k)
 
 root=a
 
-
+# getRandom(root,'Kamloops')
 # print(getChildren(root,b,list))
 # print(getDescendantNodes(root,n,list))
 
@@ -207,4 +221,5 @@ def getUpper(root,k,li):   #with itself
 
 
 # print(getUpper(root,k,list))
+
 

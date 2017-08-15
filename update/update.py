@@ -2,7 +2,7 @@ import random
 
 import pandas as pd
 
-from OntologyNode import findNodes, getDescendantNodes, getUpper
+from OntologyNode import findNodes, getDescendantNodes, getUpper, getRandom
 from utility.ReadFD import reFD
 from utility.ReadJson import reJson
 
@@ -41,19 +41,25 @@ domain=[{0:{'number':'1,1000'}},
        ]
 
 
+def fdpattern(df,fdcolumns):
+    patternlist=[]
+    length=len(df)
+    for l in range(0,length):
+        t=[]
+        for c in fdcolumns:
+            t.append(df.ix[l][c])
+        if t not in patternlist:
+            patternlist.append(t)
+    return patternlist
 
-def update(amount,df,domain,fdcolumns):
-
+def update(amount,df,domain,fdcolumns,pattern):
     update=[]
-
     for i in range(0,amount):
 
         randomrow=random.randint(0,len(df))
 
         # tag=random.randint(0,1)
-        tag=0
-
-
+        tag=1
         if tag==0:  ##更改非fd列
 
             max=len(domain)-1
@@ -70,42 +76,47 @@ def update(amount,df,domain,fdcolumns):
             print(col,coldom)
 
             for d in coldom:
-
-
-
                 if d=='ontology':
-
                     root=coldom[d]
-                    print(root)
-                    print('write a function generate node value randomly')
+                    oldvalue=str(df.ix[randomrow][col])
+                    choice=getRandom(root, oldvalue)
+                    record=[randomrow,col,choice]
+                    print(record)
+                    update.append(record)
 
                 if d=='value':
-
                     dd=coldom[d]
-                    print(dd)
                     max=0
                     for i in dd:
                         max=max+1
                     choice=dd[random.randint(1,2)]
-
                     record=[randomrow,col,choice]
+                    print(record)
                     update.append(record)
 
                 if d=='number':
                     dd = coldom[d]
-                    print(dd)
                     rg=dd.split(',')
                     min=int(rg[0])
                     max=int(rg[1])
-                    print(min)
-                    print(max)
-
                     choice=random.randint(min,max)
                     record=[randomrow,col,choice]
+                    print(record)
                     update.append(record)
+        if tag==1:
+
+            pattern = random.sample(pattern, 1)[0]
+            print(pattern)
+            print(fdcolumns)
+
+            for i in range(0,len(pattern)):
+                record=[randomrow,fdcolumns[i],pattern[i]]
+                print(record)
+                update.append(record)
 
     return update
 
-update(1,df,domain,fdcolumns)
+pattern=fdpattern(df,fdcolumns)
+update(1,df,domain,fdcolumns,pattern)
 
 # print(df.ix[2][3])
