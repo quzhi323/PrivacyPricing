@@ -35,6 +35,14 @@ def fdpattern(df,fdcolumns):
             patternlist.append(t)
     return patternlist
 
+class update():
+    '''
+
+    TODO:
+
+    '''
+
+
 def update(amount,df,domain,fdcolumns,pattern):
 
     update=[]
@@ -236,6 +244,13 @@ def apply(df,update):
         master.append(original)
 
     return df,master
+
+class supportGDB():
+    '''
+    TODO: combing df and update
+    '''
+
+
 
 update=update(1,df,domain,fdcolumns,pattern)
 apply(df,update)
