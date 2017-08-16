@@ -17,20 +17,7 @@ gen={1:'male',2:'female'}
 drug={}
 illness={}
 fd=reFD('../data/test1/fd.csv')
-
-'''
-
-单独存一个fd集，只存fd所在的列数.
-
-'''
-
 fdcolumns=[3,4,5]
-
-'''
-不在fdcolumns的才存domain
-
-'''
-
 domain=[{0:{'number':'1,1000'}},
         {1:{'value':gen}},
         {2:{'ontology':age}},
@@ -174,8 +161,9 @@ def updateGeneral(amount,df,domain,fdcolumns,pattern):
 
 print('---------TEST UPDATE----------')
 pattern=fdpattern(df,fdcolumns)
-for r in updateGeneral(1,df,domain,fdcolumns,pattern):
-    print(r)
+updates=updateGeneral(1,df,domain,fdcolumns,pattern)
+for r in updates:
+     print(r)
 
 def geselect(root,value,exp_level):
     node=findNodes(root,value)
@@ -229,17 +217,48 @@ print('---------TEST QUERRY----------')
 print(gequerry(query,exp_level,rootdic))
 
 
+print('*******')
+print('')
+print('*******')
+print('--------Test APPLY and Filter------------')
 
-def apply():
-    '''
+def apply(df,update):
+    master=[]
+    for u in update:
 
-    ???
+        row=u[0]
+        col=df.columns[u[1]]
 
-    A value is trying to be set on a copy of a slice from a DataFrame
+        original=[row,u[1],df.ix[row, col]]
 
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+        value=u[2]
+        df.ix[row, col] = value
+        master.append(original)
 
-    What The Fuck
+    return df,master
 
-    '''
+update=update(1,df,domain,fdcolumns,pattern)
+apply(df,update)
+
+
+def filter(df,updates,query,exp_level,rootdic):
+
+    rsl=[]
+
+    correct=gequerry(query,exp_level,rootdic)
+    for update in updates:
+        df,maintain=apply(df,update)
+        te=gequerry(query,exp_level,rootdic)
+        if te==correct:
+            # print('true')
+            rsl.append(update)
+        # else:
+        #     print('false')
+        df=apply(df,maintain)[0]
+
+    return rsl
+print('original number of updates:'+str(len(updates)))
+rsl=filter(df,updates,query,exp_level,rootdic)
+
+print('after filtering:'+str(len(rsl)))
 
