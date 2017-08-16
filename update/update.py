@@ -16,8 +16,20 @@ print(df)
 
 
 age=reJson('../data/test1/age.json')
+
+
+
+
+
+
+
 symp=reJson('../data/test1/symp.json')
+
+
 gen={1:'male',2:'female'}
+
+
+
 drug={}
 illness={}
 fd=reFD('../data/test1/fd.csv')
@@ -53,23 +65,21 @@ def fdpattern(df,fdcolumns):
     return patternlist
 
 def update(amount,df,domain,fdcolumns,pattern):
+
     update=[]
+
     for i in range(0,amount):
 
-        randomrow=random.randint(0,len(df))
+        randomrow=random.randint(0,len(df)-1)     #### next version, every row at least one tupple has to be updated
+        tag=random.randint(0,1)
 
-        # tag=random.randint(0,1)
-        tag=1
         if tag==0:  ##更改非fd列
 
             max=len(domain)-1
-
             rand=random.randint(0,max)
-
             randomcol=domain[rand]
 
             for c in randomcol:
-
                 col=c
                 coldom=randomcol[c]
 
@@ -103,12 +113,9 @@ def update(amount,df,domain,fdcolumns,pattern):
                     record=[randomrow,col,choice]
                     print(record)
                     update.append(record)
+
         if tag==1:
-
             pattern = random.sample(pattern, 1)[0]
-            print(pattern)
-            print(fdcolumns)
-
             for i in range(0,len(pattern)):
                 record=[randomrow,fdcolumns[i],pattern[i]]
                 print(record)
@@ -120,3 +127,7 @@ pattern=fdpattern(df,fdcolumns)
 update(1,df,domain,fdcolumns,pattern)
 
 # print(df.ix[2][3])
+
+
+#### generate a new set :   apply()
+
