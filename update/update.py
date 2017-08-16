@@ -3,6 +3,7 @@ import random
 import pandas as pd
 
 from OntologyNode import findNodes, getDescendantNodes, getUpper, getRandom
+from query.gequery import gequerry
 from utility.ReadFD import reFD
 from utility.ReadJson import reJson
 
@@ -10,26 +11,9 @@ from utility.ReadJson import reJson
 path='../data/test1/1000gdb.csv'
 df=pd.read_csv(path,header=0)
 df=pd.DataFrame(df,columns=['PID','GEN','AGE','SYMP','DRUG','ILLNESS'])
-
-
-print(df)
-
-
 age=reJson('../data/test1/age.json')
-
-
-
-
-
-
-
 symp=reJson('../data/test1/symp.json')
-
-
 gen={1:'male',2:'female'}
-
-
-
 drug={}
 illness={}
 fd=reFD('../data/test1/fd.csv')
@@ -72,9 +56,7 @@ def update(amount,df,domain,fdcolumns,pattern):
 
         randomrow=random.randint(0,len(df)-1)     #### next version, every row at least one tupple has to be updated
         tag=random.randint(0,1)
-
         if tag==0:  ##更改非fd列
-
             max=len(domain)-1
             rand=random.randint(0,max)
             randomcol=domain[rand]
@@ -83,7 +65,6 @@ def update(amount,df,domain,fdcolumns,pattern):
                 col=c
                 coldom=randomcol[c]
 
-            print(col,coldom)
 
             for d in coldom:
                 if d=='ontology':
@@ -91,7 +72,7 @@ def update(amount,df,domain,fdcolumns,pattern):
                     oldvalue=str(df.ix[randomrow][col])
                     choice=getRandom(root, oldvalue)
                     record=[randomrow,col,choice]
-                    print(record)
+
                     update.append(record)
 
                 if d=='value':
@@ -101,7 +82,7 @@ def update(amount,df,domain,fdcolumns,pattern):
                         max=max+1
                     choice=dd[random.randint(1,2)]
                     record=[randomrow,col,choice]
-                    print(record)
+
                     update.append(record)
 
                 if d=='number':
@@ -111,23 +92,154 @@ def update(amount,df,domain,fdcolumns,pattern):
                     max=int(rg[1])
                     choice=random.randint(min,max)
                     record=[randomrow,col,choice]
-                    print(record)
+
                     update.append(record)
 
         if tag==1:
             pattern = random.sample(pattern, 1)[0]
             for i in range(0,len(pattern)):
                 record=[randomrow,fdcolumns[i],pattern[i]]
-                print(record)
                 update.append(record)
 
     return update
 
+def updateEveryRow(amount,df,domain,fdcolumns,pattern):
+
+    updates=[]
+
+    for i in range(0,amount):
+
+        for randomrow in range(0,len(df)-1):
+            tag=random.randint(0,1)
+            if tag==0:  ##更改非fd列
+                update = []
+                max=len(domain)-1
+                rand=random.randint(0,max)
+                randomcol=domain[rand]
+
+                for c in randomcol:
+                    col=c
+                    coldom=randomcol[c]
+
+                for d in coldom:
+                    if d=='ontology':
+                        root=coldom[d]
+                        oldvalue=str(df.ix[randomrow][col])
+                        choice=getRandom(root, oldvalue)
+                        record=[randomrow,col,choice]
+                        update.append(record)
+
+                    if d=='value':
+                        dd=coldom[d]
+                        max=0
+                        for i in dd:
+                            max=max+1
+                        choice=dd[random.randint(1,2)]
+                        record=[randomrow,col,choice]
+                        update.append(record)
+
+                    if d=='number':
+                        dd = coldom[d]
+                        rg=dd.split(',')
+                        min=int(rg[0])
+                        max=int(rg[1])
+                        choice=random.randint(min,max)
+                        record=[randomrow,col,choice]
+                        update.append(record)
+
+                updates.append(update)
+
+            if tag == 1:
+                update = []
+                pat = random.sample(pattern, 1)[0]
+                l=len(pat)
+                for t in range(0, len(pat)):
+                    record = [randomrow, fdcolumns[t], pat[t]]
+                    # print(record)
+                    update.append(record)
+
+                updates.append(update)
+
+    return updates
+
+def updateGeneral(amount,df,domain,fdcolumns,pattern):
+    updates=updateEveryRow(amount,df,domain,fdcolumns,pattern)
+    max=random.randint(100,1000)
+
+    for t in range(0,max):
+
+        updates.append(update(amount,df,domain,fdcolumns,pattern))
+
+    return updates
+
+print('---------TEST UPDATE----------')
 pattern=fdpattern(df,fdcolumns)
-update(1,df,domain,fdcolumns,pattern)
+for r in updateGeneral(1,df,domain,fdcolumns,pattern):
+    print(r)
 
-# print(df.ix[2][3])
+def geselect(root,value,exp_level):
+    node=findNodes(root,value)
+    if node is not None:
+        level=node.getHeight()
+        diff=exp_level-level
+        if diff==0:
+            return value
+        if diff<0:
+            diff=-diff
+            temp=node
+            for i in range(0,diff):
+                temp=temp.getParent()
+                va=temp.value
+            return temp.value
+        if diff>0:
+            temp=node.getChildren()
+            for i in range(1,diff):
+                temp2=[]
+                for c in temp:
+                    temp2=temp2+c.getChildren()
+                temp=temp2
+            rsl=[]
+            for node in temp:
+                rsl.append(node.value)
+            return rsl
+
+def gequerry(query,exp_level,rootdic):
+    from pandasql import sqldf
+    pysqldf = lambda q: sqldf(q, globals())
+    rsl=pysqldf(query)
+    columns=[]
+    for c in rsl.columns:
+        columns.append(str(c))
+    for col in columns:
+        a=rsl[col]
+        gersl=[]
+        for i in a:
+            gersl.append(geselect(rootdic[col],i,exp_level))
+    return gersl
+
+query="select SYMP from df where GEN='female' ;"
+exp_level=2
+rootdic={'AGE':age,'SYMP':symp}
+
+print('*******')
+print('')
+print('*******')
+
+print('---------TEST QUERRY----------')
+print(gequerry(query,exp_level,rootdic))
 
 
-#### generate a new set :   apply()
+
+def apply():
+    '''
+
+    ???
+
+    A value is trying to be set on a copy of a slice from a DataFrame
+
+    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+
+    What The Fuck
+
+    '''
 

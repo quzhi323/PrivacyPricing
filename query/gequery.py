@@ -1,22 +1,7 @@
 import pandas as pd
 
-from src.OntologyNode import findNodes, getLeaves
-from src.ReadJson import reJson
-
-print('---initiallizing the gdb-----')
-
-print('')
-path='../../data/gdata/gdb.csv'
-df=pd.read_csv(path,header=0)
-df=pd.DataFrame(df,columns=['name','age','salary','location','department'])
-print(df)
-
-print('')
-
-# initializing the ontology tree
-location=reJson('../../data/gdata/ontology/city.json')
-age=reJson('../../data/gdata/ontology/age.json')
-dic={'location':location,'age':age}
+from OntologyNode import findNodes, getLeaves
+from utility.ReadJson import reJson
 
 def geselect(root,value,exp_level):
     node=findNodes(root,value)
@@ -44,58 +29,16 @@ def geselect(root,value,exp_level):
                 rsl.append(node.value)
             return rsl
 
-def gequerry(query, column, exp_level):
-
+def gequerry(query,exp_level,rootdic):
     from pandasql import sqldf
     pysqldf = lambda q: sqldf(q, globals())
     rsl=pysqldf(query)
-    a=rsl['location']
-    gersl=[]
-    for i in a:
-        gersl.append(geselect(dic[column],i,exp_level))
+    columns=[]
+    for c in rsl.columns:
+        columns.append(str(c))
+    for col in columns:
+        a=rsl[col]
+        gersl=[]
+        for i in a:
+            gersl.append(geselect(rootdic[col],i,exp_level))
     return gersl
-
-
-
-
-query="select location from df where age='[31-40]' ;"
-column='location'
-exp_level=1
-
-
-print('-------------------')
-print('Query Test: select location where age=[31-40], expected level is 1')
-print('')
-
-print('RESULT: ')
-print(gequerry(query,column,exp_level))
-
-
-print('')
-print('-------------------')
-print('Test 2: According to the result value, get the information of ontology family')
-
-print('Test value: age: [31-40]')
-tv='[31-40]'
-
-node=findNodes(age,tv)
-
-print('NODE:')
-print(node)
-print('')
-print('FAMILY')
-from src.OntologyNode import getFamily
-family=getFamily(age,node)
-print(family)
-print('')
-print('LEAVES')
-print('')
-leaves=getLeaves(age,node)
-print(leaves)
-
-
-
-
-
-
-
