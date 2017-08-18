@@ -3,7 +3,6 @@ import random
 import pandas as pd
 
 from OntologyNode import findNodes, getDescendantNodes, getUpper, getRandom
-from query.gequery import gequerry
 from utility.ReadFD import reFD
 from utility.ReadJson import reJson
 
@@ -47,7 +46,7 @@ class UpdateFD():
         self.updates=UpdateValueList
 
     def getUpdates(self):
-        return updates
+        return self.updates
 
     def setUpdates(self,UpdateValueList):
         self.updates=UpdateValueList
@@ -65,7 +64,7 @@ def createUpdate(amount,df,domain,fdcolumns,pattern):
     for i in range(0,amount):
         randomrow=random.randint(0,len(df)-1)
         tag=random.randint(0,1)
-        if tag==0:  ##更改非fd列
+        if tag==0:
             max=len(domain)-1
             rand=random.randint(0,max)
             randomcol=domain[rand]
@@ -79,17 +78,13 @@ def createUpdate(amount,df,domain,fdcolumns,pattern):
                     root=coldom[d]
                     oldvalue=str(df.ix[randomrow][col])
                     choice=getRandom(root, oldvalue)
-                    print(col)
                     upd=UpdateValue(randomrow,int(col),choice)
-                    print(upd.column)
                     updatelist.append(upd)
 
                 if d=='value':
                     dd=coldom[d]
                     choice=dd[random.randint(1,2)]
-                    print(col)
                     upd = UpdateValue(randomrow, int(col), choice)
-                    print(upd.column)
                     updatelist.append(upd)
 
                 if d=='number':
@@ -98,9 +93,7 @@ def createUpdate(amount,df,domain,fdcolumns,pattern):
                     min=int(rg[0])
                     max=int(rg[1])
                     choice=random.randint(min,max)
-                    print(col)
                     upd = UpdateValue(randomrow,int(col), choice)
-                    print(upd.column)
                     updatelist.append(upd)
 
         if tag==1:
@@ -197,17 +190,13 @@ def createUpdatesCoverEveryRow(df,domain,fdcolumns,pattern):
                     root=coldom[d]
                     oldvalue=str(df.ix[randomrow][col])
                     choice=getRandom(root, oldvalue)
-                    print(col)
                     upd=UpdateValue(randomrow,int(col),choice)
-                    print(upd.column)
                     updatelist.append(upd)
 
                 if d=='value':
                     dd=coldom[d]
                     choice=dd[random.randint(1,2)]
-                    print(col)
                     upd = UpdateValue(randomrow, int(col), choice)
-                    print(upd.column)
                     updatelist.append(upd)
 
                 if d=='number':
@@ -216,18 +205,17 @@ def createUpdatesCoverEveryRow(df,domain,fdcolumns,pattern):
                     min=int(rg[0])
                     max=int(rg[1])
                     choice=random.randint(min,max)
-                    print(col)
                     upd = UpdateValue(randomrow, int(col), choice)
-                    print(upd.column)
                     updatelist.append(upd)
 
         if tag==1:
             pat = random.sample(pattern, 1)[0]
             updatevaluelist=[]
             for index in range(0,len(pat)):
-                upd = UpdateValue(randomrow, fdcolumns[index], pattern[index])
+                upd = UpdateValue(randomrow, fdcolumns[index], pat[index])
                 updatevaluelist.append(upd)
             updfd = UpdateFD(updatevaluelist)
+
             updatelist.append(updfd)
 
     return updatelist
@@ -282,13 +270,25 @@ def query(qry,exp_level,rootdic):
 def apply(df,Update):
 
     master=[]
-    for u in update:
-        row=u[0]
-        col=df.columns[u[1]]
-        original=[row,u[1],df.ix[row, col]]
-        value=u[2]
+    update=Update
+    if isinstance(update,UpdateValue) is True:
+
+        row=update.row
+        col=update.column[0]
+        value=update.value
+        original=UpdateValue(row,col,df.ix[row][col])
         df.ix[row, col] = value
         master.append(original)
+
+    if isinstance(update,UpdateFD) is True:
+        updfd=update.getUpdates()
+        for u in updfd:
+            row=u.row
+            col=u.column[0]
+            original=UpdateValue(row,col,df.ix[row, col])
+            value=u.value
+            df.ix[row, col] = value
+            master.append(original)
 
     return df,master
 
@@ -296,20 +296,24 @@ def filter(df,updates,qry,exp_level,rootdic):
 
     rsl=[]
     correct=query(qry,exp_level,rootdic)
+
     for update in updates:
-        df,maintain=apply(df,update)
+        df, maintain = apply(df, update)
         te=query(qry,exp_level,rootdic)
         if te==correct:
             rsl.append(update)
-        df=apply(df,maintain)[0]
+            print('true')
+        else:
+            print('false')
+        size=len(maintain)
+
+        if size==1:
+            df=apply(df,maintain[0])[0]
+        else:
+            for mt in maintain:
+                df=apply(df,mt)[0]
 
     return rsl
-
-
-
-
-
-
 
 path='../data/test1/1000gdb.csv'
 df=pd.read_csv(path,header=0)
@@ -325,54 +329,51 @@ domain=[{0:{'number':'1,1000'}},
         {1:{'value':gen}},
         {2:{'ontology':age}},
        ]
-print('---------TEST UPDATE----------')
+
 
 pattern=findFdPatterns(df,fdcolumns)
 updates=createUpdates(1,df,domain,fdcolumns,pattern)
 
+# print('---------TEST UPDATE----------')
+# for z in updates:
+#      print('=============================')
+#      if isinstance(z,UpdateFD) is True:
 #
-# for r in updates:
-#      # print(r)
-#      # if isinstance(r,UpdateFD) is True:
-#      #     print(':Update for FD')
-#      #     upd=r.getUpdates()
-#      #     print(upd)
-#      #     for u in upd:
-#      #         print(u)
-#      #
-#      # print(r)
-#      if isinstance(r,UpdateValue) is True:
-#          print('value')
-#          print(r.row)
-#          print(r.column)
-#          print(r.value)
+#          print(':Update for FD')
+#          print(z)
+#          a=z.getUpdates()
+#          print(a)
+#          for zf in a:
+#              print(zf)
+#              print(zf.row,zf.column[0],zf.value)
+#
+#
+#      if isinstance(z,UpdateValue) is True:
+#          print(':Update for Value')
+#          print(z)
+#          print(z.row)
+#          print(z.column[0])
+#          print(z.value)
 #
 #
 #      print('---------')
-
-
-
-
-
-
 
 # print('*******')
 # print('')
 # print('*******')
 #
 # print('---------TEST QUERY----------')
-# qry="select SYMP from df where GEN='female' ;"
-# exp_level=2
-# rootdic={'AGE':age,'SYMP':symp}
+qry="select SYMP from df where GEN='female' ;"
+exp_level=2
+rootdic={'AGE':age,'SYMP':symp}
 # print(query(qry,exp_level,rootdic))
-
 # print('*******')
 # print('')
 # print('*******')
 # print('--------Test APPLY and Filter------------')
-# update=createUpdate(1,df,domain,fdcolumns,pattern)
-# apply(df,update)
+# UpdateList=createUpdate(1,df,domain,fdcolumns,pattern)
+# apply(df,UpdateList[0])
 #
-# print('original number of updates:'+str(len(updates)))
-# rsl=filter(df,updates,qry,exp_level,rootdic)
-# print('after filtering:'+str(len(rsl)))
+print('original number of updates:'+str(len(updates)))
+rsl=filter(df,updates,qry,exp_level,rootdic)
+print('after filtering:'+str(len(rsl)))
