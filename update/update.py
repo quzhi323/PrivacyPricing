@@ -289,15 +289,17 @@ def filter(df,updates,qry,exp_level,rootdic):
     '''
     rsl=[]
     correct=query(qry,exp_level,rootdic)
-
+    print(correct)
     for update in updates:
         df, maintain = apply(df, update)
         te=query(qry,exp_level,rootdic)
+        print(te)
         if te==correct:
             rsl.append(update)
             print('true')
         else:
             print('false')
+
         size=len(maintain)
 
         if size==1:
@@ -305,11 +307,10 @@ def filter(df,updates,qry,exp_level,rootdic):
         else:
             for mt in maintain:
                 df=apply(df,mt)[0]
-
+        print('-------------------------')
     return rsl
 
-
-path='../data/test1/1000gdb.csv'
+path='../data/test1/5gdb.csv'
 df=pd.read_csv(path,header=0)
 df=pd.DataFrame(df,columns=['PID','GEN','AGE','SYMP','DRUG','ILLNESS'])
 age=reJson('../data/test1/age.json')
@@ -356,7 +357,7 @@ rootdic={'AGE':age,'SYMP':symp}
 #
 # print('---------TEST QUERY----------')
 qry="select SYMP from df where GEN='female' ;"
-exp_level=2
+exp_level=3
 # print(query(qry,exp_level,rootdic))
 # print('*******')
 # print('')
